@@ -1,0 +1,33 @@
+Go to this website for the problem sets: https://www.w3resource.com/c-programming-exercises/array/index.php
+
+For the week of Oct 4th, 2021, please finish the following problem sets: 1-7 
+
+
+You'll need to generate your own test cases to test your solutions. For example,
+in question 1, you are asked to print out an array in reverse order. You'll need to
+write your program like this: 
+
+void print_rev_order(int* [], int len){
+____ //<-4 spaces (don't use a tab!) //your solution
+} 
+
+
+int main (void){
+	int ex[3] = {3,4,1}
+	print_rev_order(example);
+}
+
+
+Note that 'ex' is a pointer to the first element in an continguous section of 
+memory that contains your array. In memory, the array looks like this:
+
+	address | value stored 
+ex->	0x00001   3               
+	0x00002   4
+	0x00003   1
+
+when you make an array, the name of that array is always a pointer to the first 
+element in memory. If you're unfamiliar with pointers and how memory is stored on
+your computer, don't fret! It's not complicated, and can you read up in the book:
+
+-Coding in C 4th edition by Kochen and Stephan 
