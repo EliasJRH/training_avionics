@@ -32,12 +32,4 @@ your computer, don't fret! It's not complicated, and can you read up in the book
 
 -Coding in C 4th edition by Kochen and Stephan 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-int main(void){
-    int arr[10] = {1, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-     
-         
-    
-}
 
