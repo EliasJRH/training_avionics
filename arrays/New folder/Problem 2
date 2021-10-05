@@ -23,16 +23,14 @@ int main(void){
       
    }
     
-  printf("\n");
     
-  printf("Original array:"); 
+  printf("\nOriginal array:"); 
   for (i = 0; i < n; ++i)
       printf("%d", arr[i]);
        
     
-  printf("\n");
       
-  printf("Reversed array:");  
+  printf("\nReversed array:");  
   for (i = 0; i < n; ++i)
     printf("%d", num[i]);
  
