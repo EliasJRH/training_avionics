@@ -9,10 +9,11 @@ int main(void) {
           scanf("%d", &j)
           arr[i] = j;
           
+      printf("Elements in array are:");
+      
       for (i = 0; i < 10; i++)
       {
       
-          printf("element - %d :", i);
           printf("%d", arr[i]);
           printf("\n");
           }   
