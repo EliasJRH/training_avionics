@@ -3,7 +3,7 @@
 int main(void)
 {
     int dimension;
-	int i;
+	int i,j;
     int number;
     int sum;
 
@@ -18,8 +18,8 @@ int main(void)
 	   newArray[i] = number;
 	}
 
-    for (i=0;i < dimension; ++i) {
-        sum += newArray[i];
+    for (j=0;j < dimension; ++j) {
+        sum += newArray[j];
     }
 
 	printf("%d\n",sum);

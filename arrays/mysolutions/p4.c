@@ -5,7 +5,6 @@ int main(void)
     int dimension;
 	int i;
     int number;
-    int temp;
 
     printf("How many elements do you want to have in the array? ");
     scanf("%d", &dimension);
