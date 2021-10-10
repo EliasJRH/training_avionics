@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// found this question a bit tough, tried my best though
+/* for example when testing in edge cases like 1 0 1 0 1, for some reason 
+    I kept getting the num of duplicated to be 4 rather than 3. idk tho
+*/
+
 int main(void)
 {
     int dimension, number, currentCheck;
@@ -25,12 +30,13 @@ int main(void)
 
     while ( j < dimension ) {
         for ( k = j + 1; k < dimension; ++k) {
-            if ((newArray[k] == currentCheck) && !checkedArray[j]) {
+            if ((newArray[k] == currentCheck) && !checked) {
                 ++duplicates;
             }
         }
-        currentCheck = newArray[j];
         ++j;
+        currentCheck = newArray[j];
+
     }
 
 	printf("%d\n",duplicates);
